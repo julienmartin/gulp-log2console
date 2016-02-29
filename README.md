@@ -7,14 +7,21 @@ gulp-log2console is a [gulp](https://github.com/wearefractal/gulp) plugin which 
 [![build status](https://secure.travis-ci.org/julienmartin/gulp-log2console.svg)](http://travis-ci.org/julienmartin/gulp-log2console)
 [![devDependency Status](https://david-dm.org/julienmartin/gulp-log2console/dev-status.svg)](https://david-dm.org/julienmartin/gulp-log2console#info=devDependencies)
 
+## Install
+
+```
+$ npm install --save-dev gulp-log2console
+```
+
 ## Usage
 
 ```javascript
+var gulp = require('gulp');
 var log2console = require('gulp-log2console');
 
 gulp.task('log2console', function () {
     gulp.src('dist/**/*.js')
-        .pipe(log2console('My custom message', { logType: 'warn', useStrict: true, trimCode: false, prependSemicolon: true }))
+        .pipe(log2console('My custom message', { logType: 'warn' }))
         .pipe(gulp.dest('dist'));
 });
 ```
