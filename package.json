@@ -1,0 +1,36 @@
+{
+  "name": "gulp-log2console",
+  "version": "0.1.0",
+  "description": "Add a console logging into your JS files",
+  "license": "MIT",
+  "repository": "julienmartin/gulp-log2console",
+  "author": {
+    "name": "Julien MARTIN",
+    "email": "contact@martinjulien.fr",
+    "url": "https://github.com/julienmartin"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "consolelog",
+    "console",
+    "logging",
+    "iife",
+    "gulp"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
