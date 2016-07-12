@@ -10,7 +10,7 @@
     "url": "https://github.com/julienmartin"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=5.11.0"
   },
   "scripts": {
     "test": "mocha"
